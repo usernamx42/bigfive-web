@@ -18,6 +18,7 @@
     "eslint-fix": "eslint --fix src/**/**/** test/**/**",
     "eslint": "eslint src/**/**/** test/**/**",
     "build": "tsc",
+    "build:tolerant": "NEXT_LINT_IGNORE_ERRORS=1 next build",
     "test": "jest"
   },
   "author": {
