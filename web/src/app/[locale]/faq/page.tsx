@@ -5,47 +5,44 @@ import { Accordion, AccordionItem } from '@nextui-org/accordion';
 export default function FaqPage() {
   const faq = [
     {
-      question: 'I got an error on this website',
-      answer:
-        'Submit an issue at GitHub or send us an e-mail at bigfive-test@rubynor.com'
+      question: 'What is Welby?',
+      answer: 'Welby is an AI-powered wellness platform that combines the Big Five personality test with advanced AI analysis to provide in-depth insights into your personality and personalized wellness recommendations.'
     },
     {
-      question: 'Can I use the code for this website for Commercial Purposes?',
-      answer: 'Yes, this project is licensed under the MIT license.'
+      question: 'What is the Big Five personality test?',
+      answer: 'The Big Five personality test is a widely recognized psychological assessment that measures five core personality traits: Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. Welby uses this test as the foundation for its personalized insights.'
     },
     {
-      question: 'Can I use the questions for Commercial Purposes?',
-      answer:
-        'Yes, the questions and translations are licensed under the MIT license.'
+      question: 'How long does the Big Five test on Welby take?',
+      answer: 'The Big Five personality test on Welby contains 120 questions and is estimated to take about 10 minutes to complete.'
     },
     {
-      question: 'How do I print my test results?',
-      answer:
-        'Try to print the results-page from your browser or save it as a PDF-document and print that instead.'
+      question: 'How does Welby\'s AI analysis work?',
+      answer: 'After you complete the Big Five personality test, Welby\'s AI model processes your responses to generate personalized insights and wellness recommendations tailored to your unique personality profile.'
     },
     {
-      question: 'I want to translate the questions to my language',
-      answer:
-        "Use this website to translate the questions. Select the language you want to translate from.Translate the questions and click 'generate'. This will generate a file and download it to your computer. Send the downloaded file to bigfive- test@rubynor.com and tell us which language you have translated. If you want to translate it directly on github instead, you can follow the description here."
+      question: 'Is my data kept confidential on Welby?',
+      answer: 'Yes, we take your privacy seriously. All your test responses and personal information on Welby are encrypted and stored securely. We do not share your individual data with third parties.'
     },
     {
-      question: 'I want to translate the result text to my language',
-      answer:
-        'If you want to translate the result text you need to follow the description here.'
+      question: 'Can I retake the Big Five test on Welby?',
+      answer: 'Yes, you can retake the test on Welby at any time. However, we recommend waiting at least a few months between tests to allow for potential changes in your personality or circumstances.'
     },
     {
-      question:
-        'Where can I find more information about the questions and the evaluation?',
-      answer: 'See the IPIP Website for more information.'
+      question: 'How accurate are the AI-generated insights from Welby?',
+      answer: 'Welby\'s AI model is trained on extensive psychological research and data related to the Big Five personality traits. While the insights are highly accurate for most users, remember that they are general recommendations and not a substitute for professional medical or psychological advice.'
     },
     {
-      question: 'Where can I find the questions?',
-      answer:
-        'All questions and translations are in this repo in the data folder. The questions and scoring is taken from ipip.ori.org'
+      question: 'Can I share my Welby results with others?',
+      answer: 'Yes, after receiving your Big Five test results and AI-generated insights on Welby, you\'ll have the option to share a summary via email or social media. You control what information is shared.'
     },
     {
-      question: 'Where can I find the code?',
-      answer: 'The code is found here at GitHub.'
+      question: 'Is there a mobile app for Welby?',
+      answer: 'Currently, Welby is web-based and optimized for both desktop and mobile browsers. We\'re working on dedicated mobile apps and will announce their release soon.'
+    },
+    {
+      question: 'How often should I take the Big Five test on Welby for best results?',
+      answer: 'We recommend taking the Big Five test on Welby every 6-12 months to track changes in your personality and receive updated insights. Major life events might also be good times to reassess.'
     }
   ];
   return (
