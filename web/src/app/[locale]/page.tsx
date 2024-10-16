@@ -71,7 +71,7 @@ export default function Home({ params: { locale } }: Props) {
     green: (chunks) => (
       <span className={title({ color: 'green' })}>{chunks}</span>
     ),
-    n: '4.000.000'
+    n: '9.000.000'
   });
 
   return (
@@ -102,22 +102,6 @@ export default function Home({ params: { locale } }: Props) {
                 )}
               >
                 {t('call_to_action')} <ArrowRightIcon />
-              </Link>
-              <Link
-                isExternal
-                className={clsx(
-                  buttonStyles({
-                    variant: 'bordered',
-                    radius: 'full',
-                    size: 'lg',
-                    fullWidth: true
-                  }),
-                  'md:w-auto'
-                )}
-                href={siteConfig.links.github}
-              >
-                <GithubIcon size={20} />
-                GitHub
               </Link>
             </div>
           </div>

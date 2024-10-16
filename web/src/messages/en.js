@@ -14,8 +14,8 @@ const english = {
         'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family.'
     },
     title: 'Big Five Personality Test',
-    call_to_action: 'Take the free test now',
-    no_registration: '* No registration required',
+    call_to_action: 'Try for free',
+    no_registration: '* Trial period available',
     // do not translate <green>, {n}, and </green> tags
     tests_taken: 'Over <green>{n}</green> people have taken the test',
     compare: {
@@ -28,24 +28,24 @@ const english = {
     share: 'Share with your friends and find out how compatible you are',
     cards: {
       open: {
-        title: 'Open',
-        text: 'This is an open source project under MIT-license.'
+        title: 'AI-Driven',
+        text: 'Cutting-edge AI analysis for deep personality insights.'
       },
       free: {
-        title: 'Free',
-        text: 'The test is completely free'
+        title: 'In-Depth',
+        text: 'Comprehensive reports revealing your unique personality profile.'
       },
       scientific: {
-        title: 'Scientific',
-        text: 'BigFive is a scientifically validated and reliable psychological model.'
+        title: 'Evidence-Based',
+        text: 'Validated BigFive model enhanced with advanced AI technology.'
       },
       translated: {
-        title: 'Translated',
-        text: 'Translated to over 20 languages. Help out on <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">this translation page</a>!'
+        title: 'Growth-Focused',
+        text: 'Actionable strategies for personal development and well-being.'
       }
     },
     description: {
-      top: 'Learn to know yourself better with a <violet>free</violet>, open-source personality test.',
+      top: 'AI Powered <violet>Welness</violet> platform.',
       subtop: 'The',
       subtop2:
         ' is the most scientifically validated and reliable psychological model to measure personality.',
